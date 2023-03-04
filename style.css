@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Vintage Glamour';
+  src: url(assets/VintageGlamourRegular-ALX27.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tilt Warp', cursive;
+  font-weight: lighter;
+  font-size: 22px;
+}
+:root{
+  --primaryColor: #f2b138;
+  --secondColor: #003f63;
+  --textColor: #d9d9d9;
+  --white: white;
+}
+body{
+  background: var(--secondColor);
+}
+.header{
+  width: 100vw;
+  height: 12vh;
+
+  background: var(--primaryColor);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header h1, span{
+  font-size: 40px;
+}
+.header span{
+  color: white;
+}
+.header a{
+  text-decoration: none;
+  transition: 0.2s;
+  color: var(--secondColor);
+}
+.header a:hover{
+  border-bottom: 3px solid var(--secondColor);
+}
