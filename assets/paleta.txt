@@ -1,0 +1,7 @@
+Paleta de cores
+
+#353d40 - cinza escuro
+#d9d9d9 - cinza claro
+#a1a5a6 - cinza mediano
+#f2b138 - amarelo
+#003f63 - azul
