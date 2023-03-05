@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,18 +17,6 @@
       href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap"
       rel="stylesheet"
     />
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script> -->
   </head>
   <body>
     <header>
@@ -36,7 +24,7 @@
         <!-- <a href="">
           <h1>Rosa <span>Branca</span></h1>
         </a> -->
-        <img src="assets/logoToSite.png" alt="" width="165px" />
+        <img src="assets/logoToSite.png" alt="" width="170px" />
         <a href="">Quem somos?</a>
         <a href="">Propostas</a>
         <a href="">ETEC museu</a>
@@ -44,7 +32,87 @@
         <a href="">Contatos</a>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div class="main">
+        <!-- SLIDER -->
+        <div class="slider">
+          <div class="slides">
+            <!-- Radio button -->
+            <input type="radio" name="radio-btn" id="radio1" />
+            <input type="radio" name="radio-btn" id="radio2" />
+            <input type="radio" name="radio-btn" id="radio3" />
+            <input type="radio" name="radio-btn" id="radio4" />
+            <input type="radio" name="radio-btn" id="radio5" />
+            <!-- Fim Radio button -->
+
+            <!-- Imagens -->
+
+            <div class="slide first">
+              <img
+                src="assets/assetsSlide/esporte.png"
+                alt="Esportes na etec"
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="assets/assetsSlide/relacoes.png"
+                alt="Relações estudantis ETEC"
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="assets/assetsSlide/saudeMeioAmbiente.png"
+                alt="Saúde e meio ambiente"
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="assets/assetsSlide/social.png"
+                alt="Parte social na etec"
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="assets/assetsSlide/cultural.png"
+                alt="Imagem do evento de semana da arte moderna na ETEC de Peruíbe"
+              />
+            </div>
+
+            <!-- Fim Imagens -->
+
+            <!-- Navigation -->
+
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+              <div class="auto-btn5"></div>
+            </div>
+
+            <!-- Fim Navigation -->
+          </div>
+          <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label
+            ><label for="radio2" class="manual-btn"></label
+            ><label for="radio3" class="manual-btn"></label
+            ><label for="radio4" class="manual-btn"></label
+            ><label for="radio5" class="manual-btn"></label>
+          </div>
+        </div>
+        <!-- FIM DO SLIDER -->
+        <div class="quemSomos">
+          <h1>Quem somos?</h1>
+          <p>
+            Nós somos do grêmio estudantil da ETEC de Peruíbe, .... Lorem Ipsum
+            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem
+            IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+          </p>
+          <button>Saiba mais</button>
+        </div>
+      </div>
+    </main>
     <footer></footer>
+    <script src="script.js"></script>
   </body>
 </html>
