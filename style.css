@@ -12,6 +12,7 @@ body{
   font-size: 18px;
 
   background-color: var(--cinzaEscuro);
+  overflow-x: hidden;
 }
 @keyframes gradient {
   0% {
@@ -34,16 +35,16 @@ body{
 }
 .header{
   width: 100vw;
-  padding: 1rem;
+  padding: 18px;
 
-  background: var(--secondColor);
+  background: var(--primaryColor);
   color: var(--cinzaClaro);
 
   display: flex;
   justify-content: space-around;
   align-items: center;
 
-  border-bottom: 1px solid var(--cinzaEscuro);
+  /* border-bottom: 1px solid var(--cinzaEscuro); */
 }
 .header a{
   text-decoration: none;
@@ -108,13 +109,13 @@ button:hover{
 
 .slider{
   margin: 0;
-  width: 800px;
-  height: 400px;
+  width: 1920px;
+  height: 1080px;
   overflow: hidden;
 }
 .slides{
   width: 500%;
-  height: 400px;
+  height: 1080px;
   display: flex;
 }
 .slides input{
@@ -125,12 +126,12 @@ button:hover{
   position: relative;
 }
 .slide img{
-  width: 800px;
+  width: 1920px;
 }
 .manual-navigation{
   position: absolute;
-  width: 800px;
-  margin-top: 20px;
+  width: 1920px;
+  margin-top: -160px;
   display: flex;
   justify-content: center;
 }
@@ -172,8 +173,9 @@ button:hover{
 }
 .navigation-auto{
   position: absolute;
-  width: 800px;
-  margin-top: 420px;
+  width: 1980px;
+  margin-top: 920px;
+  margin-left: -30px;
   display: flex;
   justify-content: center;
 }
