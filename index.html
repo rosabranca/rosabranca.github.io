@@ -240,13 +240,16 @@
             </div>
           </div>
         </div>
-        <div class="sectionDark">
-          <h1 id="propostas">Propostas:</h1>
-          <ul>
+        <h1 id="propostas">Propostas:</h1>
+        <div class="propostas">
+          <div class="sectionDark">
+            
             <h2 id="esportes">Diretoria de Esportes</h2>
+            <a onclick="verMaisEsportes()" id="verMaisEsportes">Ver mais</a>
+          <ul id="ulEsportes">
           <li>
             Inserir novamente a escola nos torneios (Jeesp, jogos de primaveira
-            e etc)
+            e etc);
           </li>
           <li>Interclasses;</li>
           <li>Treinos de todas as modalidades fora do horário de aula;</li>
@@ -255,10 +258,10 @@
           <li>Introduzir o pessoal da noite nos esportes;</li>
           <li>Treinos de tênis de mesa.</li>
         </div>
-        <div class="lightBack">
           <div class="sectionLight">
-            <ul>
             <h2 id="social">Diretoria Social</h2>
+            <a onclick="verMaisSocial()" id="verMaisSocial">Ver mais</a>
+            <ul id="ulSocial">
             <li>
               Introdução do projeto Simplesmente Social: projeto focado na saúde
               mental dos alunos;
@@ -292,11 +295,11 @@
               biologia, ciências, astronomia, etc).
             </li>
             </ul>
-          </div>
         </div>
         <div class="sectionDark">
-          <ul>
-            <h2 id="cultura">Diretoria de Cultura</h2>
+          <h2 id="cultura">Diretoria de Cultura</h2>
+          <a onclick="verMaisCultura()" id="verMaisCultura">Ver mais</a>
+          <ul id="ulCultura">
           <li>Sarau interno e aberto ao publico</li>
           <li>
             Passeios culturais (Exemplos: Passeio ao Instituto Butantan, Museu
@@ -314,10 +317,10 @@
           <li>Peças de teatro abertas ao publico.</li>
           </ul>
         </div>
-        <div class="lightBack">
           <div class="sectionLight">
-            <ul>
-              <h2 id="relEstud">Diretoria de Relações Estudantis</h2>
+            <h2 id="relEstud">Diretoria de Relações Estudantis</h2>
+            <a onclick="verMaisRel()" id="verMaisRel">Ver mais</a>
+            <ul id="relEstud">
             <li>
               Integração de carteirinhas na biblioteca, para maior controle de
               entrada e saída dos livros;
@@ -328,11 +331,12 @@
             </li>
             <li>Jornal virtual</li>
             </ul>
-          </div>
         </div>
         <div class="sectionDark">
-          <ul>
-            <h2 id="saude">Diretoria de Saúde e Meio Ambiente</h2>
+          <h2 id="saude">Diretoria de Saúde e Meio Ambiente</h2>
+          <a onclick="verMaisSaude()" id="verMaisSaude">Ver mais</a>
+          <ul id="saude">
+            
           <li>Introdução de lanches naturais na cantina;</li>
           <li>Dar continuidade no projeto do Prof. Júlio, da horta orgânica;</li>
           <li>
@@ -349,33 +353,32 @@
           </li>
           </ul>
         </div>
-        <div class="lightBack">
           <div class="sectionLight">
-            <ul>
-              <h2>Diretoria de Imprensa</h2>
+            <h2 id="imprensa">Diretoria de Imprensa</h2>
+            <a onclick="verMaisImprensa()" id="verMaisImprensa">Ver mais</a>
+            <ul id="ulImprensa">
             <li>Subpágina no site para a construção da identidade da escola;</li>
             <li>Instagram tendo todas as informações sobre a escola e o grêmio;</li>
             <li>Jornal virtual.</li>
             </ul>
-          </div>
         </div>
         <div class="sectionDark">
-          <ul>
-            <h2>Diretoria Financeira</h2>
+          <h2>Diretoria Financeira</h2>
+          <a onclick="verMaisFinanceiro()" id="verMaisFinanceiro">Ver mais</a>
+          <ul id="ulFinanceiro">
           <li>
             Cotação de serviços de ar- condicionado, principalmente no auditório.
           </li>
           </ul>
         </div>
-        <div class="lightBack">
           <div class="sectionLight">
             <h1 id="etecMuseu">ETEC Museu</h1>
             <p>Criado com a finalidade de dar uma nova imagem visual para a Etec. Para as outras escolas, pessoas e os próprios alunos começarem a ver a gente como a escola incrível que nos somos.</p>
           </div>
-        </div>
         <div class="sectionDark" style="margin-bottom: 3rem;">
           <h1 id="jornal">Jornal da Etec</h1>
           <p>Uma das nossas propostas, o Jornal da Etec tem como objetivo informar os estudantes sobre vestibulares, acontecimentos internos e externos, etc. Sendo como uma extenção do Instagram da chapa.</p>
+        </div>
         </div>
       </div>
     </main>

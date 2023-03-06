@@ -85,15 +85,10 @@ p{
   font-size: 20px;
   color: var(--cinzaClaro);
 }
-/* ul{
-  display: none;
-} */
 li{
   font-size: 22px;
   color: var(--cinzaClaro);
-}
-.sectionLight h1, .sectionLight h2,.sectionLight p,.sectionLight li{
-  color: var(--cinzaEscuro);
+  margin: 1rem 0;
 }
 .buttonLight{
   width: 15rem;
@@ -133,35 +128,46 @@ li{
   border: 1px solid var(--secondColor);
   color: var(--secondColor);
 }
+.propostas .sectionDark a{
+  text-decoration: underline;
+  color: var(--cinzaClaro);
+  cursor: pointer;
+}
+.propostas .sectionLight a{
+  color: var(--cinzaEscuro);
+  text-decoration: underline;
+  cursor: pointer;
+}
 .sectionDark{
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  width: 80vw;
-  padding: 1rem 0 1rem 0;
-  text-align: justify;
-}
-.lightBack{
   width: 100vw;
-  padding: 4rem 0 4rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--primaryColor);
+  padding: 4rem 10vw 4rem 10vw;
+  text-align: justify;
 }
 .sectionLight{
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  width: 80vw;
+  width: 100vw;
+  padding: 4rem 10vw 4rem 10vw;
   text-align: justify;
 
   color: var(--cinzaEscuro);
   background-color: var(--primaryColor);
 }
-li{
-  margin: 0.5rem 0 0.5rem 0;
+
+.sectionLight h1, .sectionLight h2,.sectionLight p,.sectionLight li{
+  color: var(--cinzaEscuro);
 }
+
+/* TIRANDO VISIBILIDADE DOS UL */
+
+ul{
+  display: none;
+}
+
 
 .cards{
   display: flex;
