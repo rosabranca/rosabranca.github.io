@@ -11,7 +11,7 @@ body{
   font-family: 'Tilt Warp', cursive;
   font-size: 18px;
 
-  background-color: var(--cinzaEscuro);
+  background-color: var(--secondColor);
   overflow-x: hidden; 
 }
 /* @keyframes gradient {
@@ -72,12 +72,28 @@ body{
   gap: 3rem;
 }
 h1{
-  font-size: 45px;
+  font-size: 30px;
+  color: var(--cinzaClaro);
+}
+h2{
+  color: var(--cinzaClaro);
+}
+h3{
   color: var(--cinzaClaro);
 }
 p{
-  font-size: 25px;
+  font-size: 20px;
   color: var(--cinzaClaro);
+}
+/* ul{
+  display: none;
+} */
+li{
+  font-size: 22px;
+  color: var(--cinzaClaro);
+}
+.sectionLight h1, .sectionLight h2,.sectionLight p,.sectionLight li{
+  color: var(--cinzaEscuro);
 }
 .buttonLight{
   width: 15rem;
@@ -87,7 +103,7 @@ p{
 
   font-size: 18px;
 
-  background: var(--cinzaClaro);
+  background: var(--primaryColor);
   color: var(--secondColor);
   border: 1px solid var(--secondColor);
 
@@ -95,8 +111,8 @@ p{
 }
 .buttonLight:hover{
   background-color: var(--secondColor);
-  border: 1px solid var(--cinzaClaro);
-  color: var(--cinzaClaro);
+  border: 1px solid var(--primaryColor);
+  color: var(--primaryColor);
 }
 .buttonDark{
   width: 15rem;
@@ -113,7 +129,7 @@ p{
   transition: 1s;
 }
 .buttonDark:hover{
-  background-color: var(--cinzaClaro);
+  background-color: var(--primaryColor);
   border: 1px solid var(--secondColor);
   color: var(--secondColor);
 }
@@ -122,33 +138,91 @@ p{
   flex-direction: column;
   gap: 2rem;
   width: 80vw;
-  padding: 1rem;
+  padding: 1rem 0 1rem 0;
   text-align: justify;
 }
-#lightBack{
+.lightBack{
   width: 100vw;
+  padding: 4rem 0 4rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--cinzaClaro);
+  background-color: var(--primaryColor);
 }
 .sectionLight{
   display: flex;
   flex-direction: column;
   gap: 2rem;
   width: 80vw;
-  padding: 1rem;
   text-align: justify;
 
   color: var(--cinzaEscuro);
-  background-color: var(--cinzaClaro);
+  background-color: var(--primaryColor);
 }
-.sectionLight h1, .sectionLight p{
-  color: var(--cinzaEscuro);
+li{
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card{
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.card .text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.card .text p{
+  font-size: 18px;
+}
+.card img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
 }
 
 
 /* Fim do css do main */
+
+/*FOOTER*/
+
+.footer{
+  padding: 2rem;
+  background-color: var(--cinzaEscuro);
+}
+address{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+address p{
+  font-size: 20px;
+  color: var(--cinzaClaro);
+}
+address a{
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+
+/*FIM DO FOOTER*/
+
 
 /* CCS DO SLIDER */
 
@@ -806,6 +880,15 @@ p{
   }
   .header .imgMenu{
     display: flex;
+  }
+  .card{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
   }
   .slider{
     margin: 0;
