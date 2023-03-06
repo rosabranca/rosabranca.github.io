@@ -106,16 +106,16 @@ p{
 
   font-size: 18px;
 
-  background: var(--cinzaClaro);
-  color: var(--secondColor);
-  border: 1px solid var(--secondColor);
+  background: var(--secondColor);
+  color: var(--cinzaClaro);
+  border: 1px solid var(--cinzaEscuro);
 
   transition: 1s;
 }
 .buttonDark:hover{
-  background-color: var(--secondColor);
-  border: 1px solid var(--cinzaClaro);
-  color: var(--cinzaClaro);
+  background-color: var(--cinzaClaro);
+  border: 1px solid var(--secondColor);
+  color: var(--secondColor);
 }
 .sectionDark{
   display: flex;
