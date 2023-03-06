@@ -22,57 +22,57 @@ function verMaisEsportes() {
     document.getElementById('verMaisEsportes').innerHTML = 'Ver menos'
   }
 }
-function verMaisEsportes() {
-  if (document.getElementById('ulEsportes').style.display == 'block') {
-    document.getElementById('ulEsportes').style.display = 'none'
-    document.getElementById('verMaisEsportes').innerHTML = 'Ver mais'
+function verMaisSocial() {
+  if (document.getElementById('ulSocial').style.display == 'block') {
+    document.getElementById('ulSocial').style.display = 'none'
+    document.getElementById('verMaisSocial').innerHTML = 'Ver mais'
   } else {
-    document.getElementById('ulEsportes').style.display = 'block'
-    document.getElementById('verMaisEsportes').innerHTML = 'Ver menos'
+    document.getElementById('ulSocial').style.display = 'block'
+    document.getElementById('verMaisSocial').innerHTML = 'Ver menos'
   }
 }
-function verMaisEsportes() {
-  if (document.getElementById('ulEsportes').style.display == 'block') {
-    document.getElementById('ulEsportes').style.display = 'none'
-    document.getElementById('verMaisEsportes').innerHTML = 'Ver mais'
+function verMaisCultura() {
+  if (document.getElementById('ulCultura').style.display == 'block') {
+    document.getElementById('ulCultura').style.display = 'none'
+    document.getElementById('verMaisCultura').innerHTML = 'Ver mais'
   } else {
-    document.getElementById('ulEsportes').style.display = 'block'
-    document.getElementById('verMaisEsportes').innerHTML = 'Ver menos'
+    document.getElementById('ulCultura').style.display = 'block'
+    document.getElementById('verMaisCultura').innerHTML = 'Ver menos'
   }
 }
-function verMaisEsportes() {
-  if (document.getElementById('ulEsportes').style.display == 'block') {
-    document.getElementById('ulEsportes').style.display = 'none'
-    document.getElementById('verMaisEsportes').innerHTML = 'Ver mais'
+function verMaisRel() {
+  if (document.getElementById('ulRelEstud').style.display == 'block') {
+    document.getElementById('ulRelEstud').style.display = 'none'
+    document.getElementById('verMaisRel').innerHTML = 'Ver mais'
   } else {
-    document.getElementById('ulEsportes').style.display = 'block'
-    document.getElementById('verMaisEsportes').innerHTML = 'Ver menos'
+    document.getElementById('ulRelEstud').style.display = 'block'
+    document.getElementById('verMaisRel').innerHTML = 'Ver menos'
   }
 }
-function verMaisEsportes() {
-  if (document.getElementById('ulEsportes').style.display == 'block') {
-    document.getElementById('ulEsportes').style.display = 'none'
-    document.getElementById('verMaisEsportes').innerHTML = 'Ver mais'
+function verMaisSaude() {
+  if (document.getElementById('ulSaude').style.display == 'block') {
+    document.getElementById('ulSaude').style.display = 'none'
+    document.getElementById('verMaisSaude').innerHTML = 'Ver mais'
   } else {
-    document.getElementById('ulEsportes').style.display = 'block'
-    document.getElementById('verMaisEsportes').innerHTML = 'Ver menos'
+    document.getElementById('ulSaude').style.display = 'block'
+    document.getElementById('verMaisSaude').innerHTML = 'Ver menos'
   }
 }
-function verMaisEsportes() {
-  if (document.getElementById('ulEsportes').style.display == 'block') {
-    document.getElementById('ulEsportes').style.display = 'none'
-    document.getElementById('verMaisEsportes').innerHTML = 'Ver mais'
+function verMaisImprensa() {
+  if (document.getElementById('ulImprensa').style.display == 'block') {
+    document.getElementById('ulImprensa').style.display = 'none'
+    document.getElementById('verMaisImprensa').innerHTML = 'Ver mais'
   } else {
-    document.getElementById('ulEsportes').style.display = 'block'
-    document.getElementById('verMaisEsportes').innerHTML = 'Ver menos'
+    document.getElementById('ulImprensa').style.display = 'block'
+    document.getElementById('verMaisImprensa').innerHTML = 'Ver menos'
   }
 }
-function verMaisEsportes() {
-  if (document.getElementById('ulEsportes').style.display == 'block') {
-    document.getElementById('ulEsportes').style.display = 'none'
-    document.getElementById('verMaisEsportes').innerHTML = 'Ver mais'
+function verMaisFinanceiro() {
+  if (document.getElementById('ulFinanceiro').style.display == 'block') {
+    document.getElementById('ulFinanceiro').style.display = 'none'
+    document.getElementById('verMaisFinanceiro').innerHTML = 'Ver mais'
   } else {
-    document.getElementById('ulEsportes').style.display = 'block'
-    document.getElementById('verMaisEsportes').innerHTML = 'Ver menos'
+    document.getElementById('ulFinanceiro').style.display = 'block'
+    document.getElementById('verMaisFinanceiro').innerHTML = 'Ver menos'
   }
 }
