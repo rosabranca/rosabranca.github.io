@@ -47,10 +47,12 @@ body{
 }
 .header a{
   text-decoration: none;
-  transition: 0.1s;
+  transition: 400ms;
   color: var(--white);
 }
 .header a:hover{
+  transform: scale(1.2);
+  transition-duration: 300ms;
   border-bottom: 3px solid var(--white);
 }
 .header .imgMenu{
@@ -93,6 +95,7 @@ li{
 .buttonLight{
   width: 15rem;
   padding: 1.4rem;
+  border-radius: 0.5rem;
 
   cursor: pointer;
 
@@ -102,7 +105,7 @@ li{
   color: var(--secondColor);
   border: 1px solid var(--secondColor);
 
-  transition: 1s;
+  transition: 0.5s;
 }
 .buttonLight:hover{
   background-color: var(--secondColor);
@@ -143,16 +146,14 @@ li{
   flex-direction: column;
   gap: 2rem;
   width: 100vw;
-  padding: 4rem 10vw 4rem 10vw;
-  text-align: justify;
+  padding: 5rem 10vw;
 }
 .sectionLight{
   display: flex;
   flex-direction: column;
   gap: 2rem;
   width: 100vw;
-  padding: 4rem 10vw 4rem 10vw;
-  text-align: justify;
+  padding: 5rem 10vw;
 
   color: var(--cinzaEscuro);
   background-color: var(--primaryColor);
@@ -191,9 +192,19 @@ ul{
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  text-align: center;
 }
 .card .text p{
   font-size: 18px;
+  color: var(--secondColor);
+  font-weight: 600;
+}
+
+.card .text p + p{
+  color: var(--cinzaEscuro);
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: initial;
 }
 .card img{
   width: 100px;
@@ -202,7 +213,6 @@ ul{
   display: block;
   object-fit: cover;
 }
-
 
 /* Fim do css do main */
 
@@ -985,5 +995,11 @@ address a{
   }
   #radio5:checked ~ .navigation-auto .auto-btn5{
     background-color: var(--primaryColor);
+  }
+
+  .logo{
+    position: relative;
+    width: 140px;
+    right: 20px;
   }
 }
