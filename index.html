@@ -15,16 +15,16 @@
 
 <body>
     <header>
-        <div class="header">
+        <div class="header" id="header">
             <!-- <a href="">
           <h1>Rosa <span>Branca</span></h1>
         </a> -->
             <img src="assets/logoToSite.png" alt="" width="170px" class="logo" />
-            <a href="#quemSomos" class="optMenu">Quem somos?</a>
-            <a href="#propostas" class="optMenu">Propostas</a>
+            <a href="#quemsomoshref" class="optMenu">Quem somos?</a>
+            <a href="#propostashref" class="optMenu">Propostas</a>
             <a href="#etecMuseu" class="optMenu">ETEC museu</a>
             <a href="#jornal" class="optMenu">Jornal</a>
-            <a href="https://linktr.ee/gremioestudantilrosabranca" target="_blank" class="optMenu">Contatos</a>
+            <a href="https://linktr.ee/gremioestudantilrosabranca" target="_blank" class="optMenu">Contato</a>
             <a href="menu.html" class="imgMenu">
                 <img src="assets/menu.png" alt="Imagem Menu" width="50px" /></a>
         </div>
@@ -46,20 +46,20 @@
                         <!-- Imagens -->
 
                         <div class="slide first">
-                            <a href="#esportes"><img src="assets/assetsSlide/1.jpg" alt="Esportes na etec" /></a>
+                            <a href="#esporteshref"><img src="assets/assetsSlide/1.jpg" alt="Esportes na etec" /></a>
                         </div>
                         <div class="slide">
-                            <a href="#social"><img src="assets/assetsSlide/2.jpg" alt="Social etec" /></a>
+                            <a href="#socialhref"><img src="assets/assetsSlide/2.jpg" alt="Social etec" /></a>
                         </div>
                         <div class="slide">
-                            <a href="#cultura"><img src="assets/assetsSlide/3.jpg" alt="Cultura etec" /></a>
+                            <a href="#culturahref"><img src="assets/assetsSlide/3.jpg" alt="Cultura etec" /></a>
                         </div>
                         <div class="slide">
-                            <a href="#relEstud"><img src="assets/assetsSlide/4.jpg"
+                            <a href="#relestudhref"><img src="assets/assetsSlide/4.jpg"
                                     alt="Relações Estudantis na ETEC" /></a>
                         </div>
                         <div class="slide">
-                            <a href="#saude">
+                            <a href="#saudehref">
                                 <img src="assets/assetsSlide/5.jpg" alt="Saúde e meio ambiente" />
                             </a>
                         </div>
@@ -86,8 +86,8 @@
                 </div>
             </div>
             <!-- FIM DO SLIDER -->
-            <div class="sectionDark">
-                <h2 id="quemSomos" style="font-size: 2.5rem;">Quem somos?</h2>
+            <div class="sectionDark" id="quemsomoshref">
+                <h2 id="quemSomos" style="font-size: 3rem;">Quem somos?</h2>
                 <p>
                     Nós somos 18 estudantes com um único objetivo: melhorar o ambiente
                     em que vivemos. Atualmente, estamos competindo ao grêmio estudantil
@@ -95,11 +95,11 @@
                     sempre com muita dedicação e responsabilidade.
                 </p>
                 <a href="https://linktr.ee/gremioestudantilrosabranca" target="_blank"><button
-                        class="buttonLight">Contatos</button></a>
+                        class="buttonLight">Contato</button></a>
             </div>
             <div class="lightBack">
                 <div class="sectionLight">
-                    <h2 style="font-size: 2.5rem; font-weight: initial; text-align: center;">Conheça-nos</h2>
+                    <h2 style="font-size: 3rem; font-weight: initial; text-align: center;">Conheça-nos</h2>
                     <div class="cards">
                         <div class="card">
                             <img src="assets/perfis/soso.jpg" alt="Foto da soso" style="object-position: 0 -10px;">
@@ -230,9 +230,9 @@
                     </div>
                 </div>
             </div>
-            <h2 id="propostas" style="font-size: 2.5rem; margin-top: 2.5rem; margin-bottom: -2.5rem;">Propostas</h2>
+            <h2 id="propostas" style="font-size: 3rem; margin-top: 3rem;">Propostas</h2>
             <div class="propostas">
-                <div class="sectionDark">
+                <div class="sectionDark" id="esporteshref">
                     <h2 id="esportes">Diretoria de Esportes</h2>
                     <a onclick="verMaisEsportes()" id="verMaisEsportes">Ver mais</a>
                     <ul id="ulEsportes">
@@ -247,7 +247,7 @@
                         <li>Introduzir o pessoal da noite nos esportes;</li>
                         <li>Treinos de tênis de mesa.</li>
                 </div>
-                <div class="sectionLight">
+                <div class="sectionLight" id="socialhref">
                     <h2 id="social">Diretoria Social</h2>
                     <a onclick="verMaisSocial()" id="verMaisSocial">Ver mais</a>
                     <ul id="ulSocial">
@@ -286,7 +286,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="sectionDark">
+                <div class="sectionDark" id="culturahref">
                     <h2 id="cultura">Diretoria de Cultura</h2>
                     <a onclick="verMaisCultura()" id="verMaisCultura">Ver mais</a>
                     <ul id="ulCultura">
@@ -307,7 +307,7 @@
                         <li>Peças de teatro abertas ao publico.</li>
                     </ul>
                 </div>
-                <div class="sectionLight">
+                <div class="sectionLight" id="relestudhref">
                     <h2 id="relEstud">Diretoria de Relações Estudantis</h2>
                     <a onclick="verMaisRel()" id="verMaisRel">Ver mais</a>
                     <ul id="ulRelEstud">
@@ -322,7 +322,7 @@
                         <li>Jornal virtual.</li>
                     </ul>
                 </div>
-                <div class="sectionDark">
+                <div class="sectionDark" id="saudehref">
                     <h2 id="saude">Diretoria de Saúde e Meio Ambiente</h2>
                     <a onclick="verMaisSaude()" id="verMaisSaude">Ver mais</a>
                     <ul id="ulSaude">
@@ -343,7 +343,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="sectionLight">
+                <div class="sectionLight" id="imprensahref">
                     <h2 id="imprensa">Diretoria de Imprensa</h2>
                     <a onclick="verMaisImprensa()" id="verMaisImprensa">Ver mais</a>
                     <ul id="ulImprensa">
@@ -352,12 +352,15 @@
                         <li>Jornal virtual.</li>
                     </ul>
                 </div>
-                <div class="sectionDark">
+                <div class="sectionDark" id="financeirohref">
                     <h2>Diretoria Financeira</h2>
                     <a onclick="verMaisFinanceiro()" id="verMaisFinanceiro">Ver mais</a>
                     <ul id="ulFinanceiro">
                         <li>
-                            Cotação de serviços de ar-condicionado, principalmente no auditório.
+                            Cotação de serviços de ar-condicionado, principalmente no auditório;
+                        </li>
+                        <li>
+                            Financiar recursos para o clube de teatro, como cortina, materiais e o figurino.
                         </li>
                     </ul>
                 </div>
@@ -378,7 +381,7 @@
         <div class="footer">
             <address id="contatos">
                 <p>
-                    Rosa Branca Grêmio Estudantil<br />
+                    Rosa Branca Grêmio Estudantil<br/>
                     <a href="https://www.instagram.com/chaparosabranca/?igshid=YmMyMTA2M2Y%3D"
                         target="_blank"><u>@chaparosabranca</u></a> <br />
                     <a href="https://forms.gle/ybtxdvz1iAHLqp6h7" target="_blank"><u>Formulário</u></a><br />
@@ -387,6 +390,9 @@
             </address>
         </div>
     </footer>
+
+    <a href="#header"> <div class="retornar"> ↑ </div> </a>
+
     <script src="script.js"></script>
 </body>
 
