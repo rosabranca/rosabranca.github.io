@@ -93,23 +93,24 @@ li{
   margin: 1rem 0;
 }
 .buttonLight{
-  width: 15rem;
+  width: 20rem;
   padding: 1.4rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 
   cursor: pointer;
 
-  font-size: 18px;
+  font-size: 1.25rem;
+  font-weight: bold;
 
   background: var(--primaryColor);
   color: var(--secondColor);
-  border: 1px solid var(--secondColor);
+  border: 3px solid var(--secondColor);
 
   transition: 0.5s;
 }
 .buttonLight:hover{
   background-color: var(--secondColor);
-  border: 1px solid var(--primaryColor);
+  border: 3px solid var(--primaryColor);
   color: var(--primaryColor);
 }
 .buttonDark{
@@ -176,6 +177,7 @@ ul{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  padding: 2rem 0;
 }
 .card{
   width: 15vw;
@@ -333,6 +335,48 @@ address a{
 #radio5:checked ~ .navigation-auto .auto-btn5{
   background-color: var(--primaryColor);
 }
+
+
+/* Botão para retornar ao início da página */
+.retornar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 9vh;
+  width: 9vh;
+  position: fixed;
+  z-index: 99;
+  right: clamp(1.5rem, 4vw, 4rem);
+  bottom: clamp(1.5rem, 4vw, 4rem);
+  padding: 0 0 0.5rem 0;
+
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-color: var(--secondColor);
+  
+  border-style: solid;
+  border-color: var(--primaryColor);
+  border-width: 3px;
+  border-radius: 9vh;
+
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+}
+
+.retornar:hover{
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+  color: var(--cinzaEscuro);
+  font-size: 2rem;
+  background-color: var(--primaryColor);
+  border-color: var(--secondColor);
+  transform: scale(1.1);
+}
+
 
 /* Ínicio das medias para arrumar a responsividade de alguns objetos */
 
@@ -1001,5 +1045,9 @@ address a{
     position: relative;
     width: 140px;
     right: 20px;
+  }
+
+  .buttonLight{
+    width: 100%;
   }
 }
