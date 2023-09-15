@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .header {
+        height: 17vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 10vw;
+      }
+      body {
+        background-color: #f2b138;
+      }
+      a {
+        text-decoration: none;
+        transition: 0.1s;
+        color: white;
+
+        font-size: 25px;
+        font-family: 'vintage glamour';
+        font-weight: 400;
+      }
+      a:hover {
+        border-bottom: 3px solid white;
+      }
+      .menu {
+        background-color: #f2b138;
+        height: 83vh;
+
+        gap: 10vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img src="assets/logoToSite.png" alt="Logo Rosa Branca" width="140px" />
+      <a href="index.html"
+        ><img src="assets/x.png" alt="Voltar para o index" width="40px"
+      /></a>
+    </div>
+    <div class="menu">
+      <a href="../index.html">Página Principal</a>
+      <a href="../index.html#quemSomos">Quem somos?</a>
+      <a href="../index.html#propostas">Propostas</a>
+      <a href="../index.html#etecMuseu">ETEC Museu</a>
+      <a href="../index.html#contatos">Contatos</a>
+    </div>
+  </body>
+</html>
